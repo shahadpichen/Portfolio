@@ -7,14 +7,14 @@ import { SiLinkedin } from "react-icons/si";
 function Navbar({ className }: { className?: string }) {
   const socials = [
     {
-      Link: "https://www.linkedin.com/in/shahad-pichen-a42bb828b/",
+      Link: "https://github.com/shahadpichen",
       label: "Github",
-      Icon: SiLinkedin,
+      Icon: SiGithub,
     },
     {
       Link: "https://www.linkedin.com/in/shahad-pichen-a42bb828b/",
       label: "Linkedin",
-      Icon: SiGithub,
+      Icon: SiLinkedin,
     },
   ];
   return (

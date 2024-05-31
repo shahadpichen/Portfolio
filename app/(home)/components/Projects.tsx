@@ -44,6 +44,17 @@ function Projects() {
       background: "bg-indigo-500",
       position: "left",
     },
+    {
+      title: "E-Bank 🏦",
+      tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
+      link: "#",
+      cover: "/project-5.png",
+      content:
+        "E-Bank is a minimalistic banking platform offering smooth money transfers, simple loan requests, and easy account management. Transfer funds, request loans, and close accounts effortlessly, all within an intuitive and user-friendly interface designed to make banking stress-free and efficient.",
+      background: "bg-green-500",
+      position: "right",
+    },
+
     // {
     //   title: "Image Uploader 📷",
     //   tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
@@ -97,13 +108,13 @@ function Projects() {
               <div className="space-y-3  flex flex-col items-center justify-center p-5 lg:w-[50%]">
                 <h1 className="text-xl font-bold">{project.title}</h1>
                 <p className="text-md text-center">{project.content}</p>
-                <Link href={project.link}>
+                {/* <Link href={project.link}>
                   <div className="flex text-xl mt-10 items-center gap-2">
                     Live demo <IoShare className="rotate-6" />
                   </div>
                   <div className="w-24 h-2 bg-green-500 rounded-full"></div>
                   <div className="w-24 h-2 bg-indigo-500 rounded-full translate-x-7"></div>
-                </Link>
+                </Link> */}
               </div>
             </div>
           );
