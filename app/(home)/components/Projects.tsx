@@ -2,10 +2,13 @@ import React from "react";
 import Title from "./Title";
 import {
   SiVuedotjs,
-  SiReactquery,
+  SiReact,
   SiTailwindcss,
   SiNextdotjs,
   SiSupabase,
+  SiNodedotjs,
+  SiMongodb,
+  SiPostman,
 } from "react-icons/si";
 import { IoShare } from "react-icons/io5";
 import { cn } from "@/lib/utils";
@@ -16,7 +19,7 @@ function Projects() {
   const projects = [
     {
       title: "Student Management System 🧑‍🎓",
-      tech: [SiVuedotjs, SiReactquery, SiTailwindcss],
+      tech: [SiVuedotjs, SiReact, SiTailwindcss],
       link: "#",
       cover: "/project-1.png",
       content:
@@ -26,7 +29,7 @@ function Projects() {
     },
     {
       title: "Tiara (e-commerce) 💸",
-      tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
+      tech: [SiNextdotjs, SiReact, SiSupabase, SiTailwindcss],
       link: "#",
       cover: "/project-2.png",
       content:
@@ -36,7 +39,7 @@ function Projects() {
     },
     {
       title: "Foodies 🍔",
-      tech: [SiNextdotjs, SiReactquery],
+      tech: [SiNextdotjs, SiReact],
       link: "#",
       cover: "/project-3.png",
       content:
@@ -46,7 +49,7 @@ function Projects() {
     },
     {
       title: "E-Bank 🏦",
-      tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
+      tech: [SiNextdotjs, SiReact, SiSupabase, SiTailwindcss],
       link: "#",
       cover: "/project-5.png",
       content:
@@ -54,10 +57,20 @@ function Projects() {
       background: "bg-green-500",
       position: "right",
     },
+    {
+      title: "EStateApp 🏠",
+      tech: [SiReact, SiNodedotjs, SiMongodb, SiPostman],
+      link: "#",
+      cover: "/project-6.png",
+      content:
+        "user-friendly platform for listing and browsing plots and apartments for sale or rent. It features location and price details, with integrated chat for negotiation between sellers and clients, ensuring a seamless real estate transaction experience.",
+      background: "bg-indigo-500",
+      position: "left",
+    },
 
     // {
     //   title: "Image Uploader 📷",
-    //   tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
+    //   tech: [SiNextdotjs, SiReact, SiSupabase, SiTailwindcss],
     //   link: "#",
     //   cover: "/project-1.png",
     //   background: "bg-green-500",

@@ -9,7 +9,10 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiSupabase,
-  SiGit,
+  SiGithub,
+  SiNodedotjs,
+  SiMongodb,
+  SiPostman,
 } from "react-icons/si";
 
 function Skills() {
@@ -19,7 +22,10 @@ function Skills() {
     { text: "tailwind", Icon: SiTailwindcss },
     { text: "Typescript", Icon: SiTypescript },
     { text: "Supabase", Icon: SiSupabase },
-    { text: "Git", Icon: SiGit },
+    { text: "GitHub", Icon: SiGithub },
+    { text: "Node.js", Icon: SiNodedotjs },
+    { text: "MongoDB", Icon: SiMongodb },
+    { text: "Postman", Icon: SiPostman },
   ];
   return (
     <section className="max-w-5xl mx-auto px-8">

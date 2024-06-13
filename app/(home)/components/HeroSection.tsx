@@ -15,7 +15,7 @@ function HeroSection() {
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {
-            "Based in India 🇮🇳, I'm a Front-end React developer passionate about buliding modern web application that users love."
+            "Based in India 🇮🇳, I'm a Software developer passionate about buliding modern applications that users love."
           }
         </p>
         <Link
