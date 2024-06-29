@@ -5,27 +5,27 @@ import Title from "./Title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import {
   SiReact,
-  SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
   SiSupabase,
-  SiGithub,
+  SiDocker,
   SiNodedotjs,
   SiMongodb,
-  SiPostman,
+  SiJest,
+  SiPostgresql,
 } from "react-icons/si";
 
 function Skills() {
   const skills = [
     { text: "React", Icon: SiReact },
-    { text: "Next.js", Icon: SiNextdotjs },
+    { text: "Jest", Icon: SiJest },
     { text: "tailwind", Icon: SiTailwindcss },
     { text: "Typescript", Icon: SiTypescript },
     { text: "Supabase", Icon: SiSupabase },
-    { text: "GitHub", Icon: SiGithub },
+    { text: "Docker", Icon: SiDocker },
     { text: "Node.js", Icon: SiNodedotjs },
     { text: "MongoDB", Icon: SiMongodb },
-    { text: "Postman", Icon: SiPostman },
+    { text: "Postgres", Icon: SiPostgresql },
   ];
   return (
     <section className="max-w-5xl mx-auto px-8">
